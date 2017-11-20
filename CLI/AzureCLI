@@ -1,0 +1,8 @@
+##Create a new Win 2016 VM
+
+az vm create -n WinServers -g kcgresourcegroup --image Win2016DataCenter --no-wait
+
+
+## Create a new resource group
+
+az group create -l centralus -n kcgresourcegroup
